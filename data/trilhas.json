@@ -1,0 +1,439 @@
+{
+  "trilhas": [
+    {
+      "tecnologia": "Python",
+      "nivel": "Básico",
+      "descricao": "Primeiros passos com Python: sintaxe, tipos e o fluxo de um programa pequeno.",
+      "modulos": [
+        {
+          "titulo": "Sintaxe e tipos",
+          "topicos": ["Variáveis", "Números e texto", "Entrada e saída"],
+          "horas": 4
+        },
+        {
+          "titulo": "Decisões e repetições",
+          "topicos": ["if e else", "for", "while"],
+          "horas": 4
+        },
+        {
+          "titulo": "Funções",
+          "topicos": ["Parâmetros", "Retorno", "Escopo"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Calculadora de médias",
+          "enunciado": "Escreva um programa que recebe três notas, calcula a média e informa se o resultado é maior ou igual a 7.",
+          "dica": "Use uma função para o cálculo e if para a mensagem final."
+        }
+      ]
+    },
+    {
+      "tecnologia": "Python",
+      "nivel": "Intermediário",
+      "descricao": "Organização de dados, leitura de arquivos e tratamento de erros em Python.",
+      "modulos": [
+        {
+          "titulo": "Coleções",
+          "topicos": ["Listas", "Dicionários", "Compreensões"],
+          "horas": 5
+        },
+        {
+          "titulo": "Arquivos e módulos",
+          "topicos": ["Leitura de texto", "Importação", "Pacotes locais"],
+          "horas": 5
+        },
+        {
+          "titulo": "Erros",
+          "topicos": ["try e except", "Exceções próprias", "Mensagens claras"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Agenda em arquivo",
+          "enunciado": "Crie uma agenda que guarda nome e e-mail em um arquivo de texto e permite buscar um contato pelo nome.",
+          "dica": "Separe a leitura do arquivo da busca na lista de contatos."
+        }
+      ]
+    },
+    {
+      "tecnologia": "Python",
+      "nivel": "Avançado",
+      "descricao": "Modelagem com classes, testes automatizados e uma API pequena em Python.",
+      "modulos": [
+        {
+          "titulo": "Orientação a objetos",
+          "topicos": ["Classes", "Herança", "Dataclasses"],
+          "horas": 6
+        },
+        {
+          "titulo": "Testes",
+          "topicos": ["pytest", "Casos de borda", "Fixtures"],
+          "horas": 5
+        },
+        {
+          "titulo": "API",
+          "topicos": ["Rotas", "JSON", "Validação de entrada"],
+          "horas": 6
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "API de trilhas",
+          "enunciado": "Modele uma classe Trilha e exponha uma rota que devolve a trilha em JSON somente quando a tecnologia existir.",
+          "dica": "Cubra o caminho feliz e o caso de tecnologia inexistente com testes."
+        }
+      ]
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "Básico",
+      "descricao": "Base de JavaScript para scripts no terminal e páginas simples.",
+      "modulos": [
+        {
+          "titulo": "Valores e operadores",
+          "topicos": ["let e const", "Tipos primitivos", "Operadores"],
+          "horas": 4
+        },
+        {
+          "titulo": "Controle de fluxo",
+          "topicos": ["Condicionais", "Laços", "Arrays"],
+          "horas": 4
+        },
+        {
+          "titulo": "Funções",
+          "topicos": ["Declaração", "Arrow functions", "Callbacks simples"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Lista de tarefas",
+          "enunciado": "Implemente funções para adicionar, concluir e listar tarefas guardadas em um array.",
+          "dica": "Cada tarefa pode ser um objeto com titulo e concluida."
+        }
+      ]
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "Intermediário",
+      "descricao": "Assincronismo, módulos e manipulação de dados em JavaScript.",
+      "modulos": [
+        {
+          "titulo": "Objetos e arrays",
+          "topicos": ["map", "filter", "Desestruturação"],
+          "horas": 5
+        },
+        {
+          "titulo": "Assíncrono",
+          "topicos": ["Promises", "async e await", "Erros assíncronos"],
+          "horas": 5
+        },
+        {
+          "titulo": "Módulos",
+          "topicos": ["export", "import", "Organização de pastas"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Consulta fictícia",
+          "enunciado": "Simule uma função assíncrona que busca uma trilha pelo nome e rejeita a promise quando a trilha não existe.",
+          "dica": "Use async/await no chamador e trate o erro com try/catch."
+        }
+      ]
+    },
+    {
+      "tecnologia": "JavaScript",
+      "nivel": "Avançado",
+      "descricao": "Testes, APIs e organização de um CLI em JavaScript.",
+      "modulos": [
+        {
+          "titulo": "Testes",
+          "topicos": ["Casos unitários", "Mocks", "Cobertura"],
+          "horas": 5
+        },
+        {
+          "titulo": "HTTP",
+          "topicos": ["fetch", "JSON", "Códigos de status"],
+          "horas": 5
+        },
+        {
+          "titulo": "CLI",
+          "topicos": ["process.argv", "Saída padronizada", "Códigos de saída"],
+          "horas": 6
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Comando de resumo",
+          "enunciado": "Crie um comando de terminal que recebe um nome de tecnologia e imprime quantos módulos a trilha possui.",
+          "dica": "Separe o parser de argumentos da função que formata o texto."
+        }
+      ]
+    },
+    {
+      "tecnologia": "React",
+      "nivel": "Básico",
+      "descricao": "Interface com componentes, props e estado local em React.",
+      "modulos": [
+        {
+          "titulo": "Componentes",
+          "topicos": ["JSX", "Props", "Composição"],
+          "horas": 4
+        },
+        {
+          "titulo": "Estado",
+          "topicos": ["useState", "Eventos", "Renderização condicional"],
+          "horas": 5
+        },
+        {
+          "titulo": "Listas",
+          "topicos": ["map", "key", "Formulário simples"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Cartão de trilha",
+          "enunciado": "Crie um componente que recebe tecnologia, nível e carga horária e mostra um cartão com esses dados.",
+          "dica": "Passe os dados por props e evite texto fixo dentro do componente."
+        }
+      ]
+    },
+    {
+      "tecnologia": "React",
+      "nivel": "Intermediário",
+      "descricao": "Efeitos, formulários e organização de uma tela de trilhas em React.",
+      "modulos": [
+        {
+          "titulo": "Efeitos",
+          "topicos": ["useEffect", "Dependências", "Limpeza"],
+          "horas": 5
+        },
+        {
+          "titulo": "Formulários",
+          "topicos": ["Campos controlados", "Validação", "Envio"],
+          "horas": 5
+        },
+        {
+          "titulo": "Composição de tela",
+          "topicos": ["Lista e detalhe", "Estado vazio", "Filtro por nível"],
+          "horas": 5
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Filtro de trilhas",
+          "enunciado": "Monte uma tela que lista trilhas e permite filtrar pelo nível escolhido em um select.",
+          "dica": "Guarde o filtro no estado e derive a lista exibida a partir dele."
+        }
+      ]
+    },
+    {
+      "tecnologia": "React",
+      "nivel": "Avançado",
+      "descricao": "Estado compartilhado, testes de componente e consumo de dados em React.",
+      "modulos": [
+        {
+          "titulo": "Estado compartilhado",
+          "topicos": ["Context", "Levantamento de estado", "Reducers"],
+          "horas": 6
+        },
+        {
+          "titulo": "Dados remotos",
+          "topicos": ["Carregamento", "Erro", "Atualização da tela"],
+          "horas": 5
+        },
+        {
+          "titulo": "Testes de interface",
+          "topicos": ["Render", "Interação", "Consultas acessíveis"],
+          "horas": 5
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Emissão na interface",
+          "enunciado": "Crie um formulário de certificado que só habilita o botão quando nome e tecnologia estão preenchidos.",
+          "dica": "Teste o estado desabilitado e o clique depois do preenchimento."
+        }
+      ]
+    },
+    {
+      "tecnologia": "Java",
+      "nivel": "Básico",
+      "descricao": "Fundamentos de Java: tipos, métodos e o método main.",
+      "modulos": [
+        {
+          "titulo": "Primeiro programa",
+          "topicos": ["Classe", "main", "System.out"],
+          "horas": 4
+        },
+        {
+          "titulo": "Tipos e operadores",
+          "topicos": ["Primitivos", "String", "Operadores"],
+          "horas": 4
+        },
+        {
+          "titulo": "Métodos",
+          "topicos": ["Parâmetros", "Retorno", "Sobrecarga"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Saudação de trilha",
+          "enunciado": "Escreva uma classe com um método que recebe a tecnologia e devolve a frase de boas-vindas da trilha.",
+          "dica": "Chame o método a partir do main e imprima o retorno."
+        }
+      ]
+    },
+    {
+      "tecnologia": "Java",
+      "nivel": "Intermediário",
+      "descricao": "Coleções, exceções e leitura de dados em Java.",
+      "modulos": [
+        {
+          "titulo": "Coleções",
+          "topicos": ["ArrayList", "Map", "Iteração"],
+          "horas": 5
+        },
+        {
+          "titulo": "Exceções",
+          "topicos": ["try e catch", "Checked exceptions", "Mensagens"],
+          "horas": 4
+        },
+        {
+          "titulo": "Arquivos",
+          "topicos": ["Leitura", "Escrita", "Fechamento de recursos"],
+          "horas": 5
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Catálogo de módulos",
+          "enunciado": "Guarde módulos em uma lista e lance uma exceção clara quando alguém buscar um título que não existe.",
+          "dica": "Crie uma exceção própria com o nome do módulo ausente."
+        }
+      ]
+    },
+    {
+      "tecnologia": "Java",
+      "nivel": "Avançado",
+      "descricao": "Orientação a objetos, testes e uma API enxuta em Java.",
+      "modulos": [
+        {
+          "titulo": "Modelagem",
+          "topicos": ["Encapsulamento", "Interfaces", "Records"],
+          "horas": 6
+        },
+        {
+          "titulo": "Testes",
+          "topicos": ["JUnit", "Assertivas", "Casos de erro"],
+          "horas": 5
+        },
+        {
+          "titulo": "API",
+          "topicos": ["Endpoint", "DTO", "Resposta de erro"],
+          "horas": 6
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Serviço de certificado",
+          "enunciado": "Implemente um serviço que gera um código de certificado a partir do nome e da tecnologia e cubra o método com testes.",
+          "dica": "O mesmo par nome e tecnologia deve gerar sempre o mesmo código."
+        }
+      ]
+    },
+    {
+      "tecnologia": "TypeScript",
+      "nivel": "Básico",
+      "descricao": "Tipos explícitos e funções seguras para quem já escreve JavaScript.",
+      "modulos": [
+        {
+          "titulo": "Tipos do dia a dia",
+          "topicos": ["string e number", "Arrays", "Union types"],
+          "horas": 4
+        },
+        {
+          "titulo": "Funções tipadas",
+          "topicos": ["Parâmetros", "Retorno", "Tipos opcionais"],
+          "horas": 4
+        },
+        {
+          "titulo": "Objetos",
+          "topicos": ["Interfaces", "Type aliases", "Propriedades obrigatórias"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Tipo Trilha",
+          "enunciado": "Declare uma interface Trilha com tecnologia, nível e horas e escreva uma função que soma a carga de uma lista de trilhas.",
+          "dica": "O retorno da função deve ser number, sem usar any."
+        }
+      ]
+    },
+    {
+      "tecnologia": "TypeScript",
+      "nivel": "Intermediário",
+      "descricao": "Modelagem de dados, união discriminada e organização de módulos em TypeScript.",
+      "modulos": [
+        {
+          "titulo": "Uniões",
+          "topicos": ["Discriminated unions", "Estreitamento", "never"],
+          "horas": 5
+        },
+        {
+          "titulo": "Genéricos",
+          "topicos": ["Funções genéricas", "Restrições", "Listas tipadas"],
+          "horas": 5
+        },
+        {
+          "titulo": "Módulos",
+          "topicos": ["export type", "import", "Separação de domínio"],
+          "horas": 4
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Resultado de comando",
+          "enunciado": "Modele um tipo Resultado com sucesso ou erro e escreva uma função que formata cada caso sem deixar um ramo sem retorno.",
+          "dica": "Use um campo tipo para distinguir sucesso de erro."
+        }
+      ]
+    },
+    {
+      "tecnologia": "TypeScript",
+      "nivel": "Avançado",
+      "descricao": "Tipos estritos, testes e um servidor MCP pequeno em TypeScript.",
+      "modulos": [
+        {
+          "titulo": "Strict mode",
+          "topicos": ["null e undefined", "readonly", "unknown"],
+          "horas": 5
+        },
+        {
+          "titulo": "Testes",
+          "topicos": ["Jest", "Casos de borda", "Cobertura"],
+          "horas": 5
+        },
+        {
+          "titulo": "Servidor MCP",
+          "topicos": ["Ferramentas", "stdio", "Contratos de entrada"],
+          "horas": 6
+        }
+      ],
+      "desafios": [
+        {
+          "titulo": "Ferramenta tipada",
+          "enunciado": "Defina o contrato de uma ferramenta que recebe tecnologia e nível e recuse nível fora da lista permitida.",
+          "dica": "Valide a entrada antes de consultar a base e devolva uma mensagem objetiva."
+        }
+      ]
+    }
+  ]
+}
